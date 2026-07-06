@@ -81,7 +81,7 @@
 
 **2024–2025** — Expansão autônoma: scripts, deploys, serviços.
 
-**2025** — Um amigo viu o ForestAI. Entrei para a **Paware Softwares**. Migrei 500GB para Azure Cosmos DB, arquitetei **HarpIA** — pipeline orquestrado por LLM para geração de imagens. Construí também **Urutau** (app offline-first) e **Orca** (motor de planejamento).
+**2025** — Um amigo viu o ForestAI. Contrato freelance com a **Meritage Homes** (EUA) — migrei 500GB para Cosmos DB com zero downtime, arquitetei pipelines de IA (GPT-4.1, DALL-E 3, Flux), infra de chatbot cross-platform e parsing de PDF para LLM. Paralelamente, entrei para a **Paware Softwares**, onde arquitetei **HarpIA** — pipeline orquestrado por LLM para geração de imagens. Construí também **Urutau** (app offline-first) e **Orca** (motor de planejamento).
 
 **2026** — Divulgação responsável: 20+ vulnerabilidades em infraestrutura governamental e setorial brasileira. 5 correções confirmadas via CERT.br/CTIR Gov. Análise sistêmica de plataforma (Base44 auth failure). Três ondas de divulgação (Mar–Jun 2026).
 
@@ -96,7 +96,7 @@
 
 **2024–2025** — Self-taught expansion: system scripts, Windows deployments, IT services.
 
-**2025** — A friend saw ForestAI. Joined **Paware Softwares**. Migrated 500GB to Azure Cosmos DB, architected **HarpIA** — LLM-orchestrated AI pipeline for image generation. Also built **Urutau** (offline-first app) and **Orca** (planning engine).
+**2025** — A friend saw ForestAI. Freelance contract with **Meritage Homes** (USA) — migrated 500GB to Cosmos DB with zero downtime, architected AI pipelines (GPT-4.1, DALL-E 3, Flux), cross-platform chatbot infra and PDF parsing for LLM ingestion. Concurrently, joined **Paware Softwares**, where I architected **HarpIA** — LLM-orchestrated AI pipeline for image generation. Also built **Urutau** (offline-first app) and **Orca** (planning engine).
 
 **2026** — Responsible disclosure: 20+ vulnerabilities in Brazilian government and sectoral infrastructure. 5 confirmed fixes via CERT.br/CTIR Gov. Platform-level systemic analysis (Base44 auth failure). Three disclosure waves (Mar–Jun 2026).
 
@@ -189,6 +189,16 @@
 
 ### 🛡️ Security Research & Responsible Disclosure
 
+**20+ vulnerabilidades** em infraestrutura governamental/setorial brasileira — **5 correções confirmadas** via CERT.br/CTIR Gov (Mar–Jun 2026). Três ondas de divulgação: zero retenção, notificação multi-canal (CERT.br + CTIR Gov + direto), verificação pós-fix.
+
+| | Projeto | A tese / The Thesis | Stack |
+|---|---|---|---|
+| 🎯 | **Phishing Takedown: Microsoft/OneDrive** | Derrubei infraestrutura de phishing ativa (procorereviews.com → HTTP 521 sustentado) via flood controlado de 10k submissões. Infra rotacionada (kochcnfvontainer.vu) mapeada, analisada, reportada ao CERT.br/Cloudflare. Extração de HTML real via browser bypassando anti-bot (Cloudflare Turnstile + fingerprinting). | `OSINT` `Burp Suite` `Shodan` `Google Dorking` `Base91 Decoder` `CERT.br` `Cloudflare` |
+| 🔬 | **JS Deobfuscation & Threat Intel Pipeline** | Reversão de 3 arquivos JS ofuscados com Base91 customizado (3 alfabetos únicos). Extração de config anti-bot (PageConfig: 32 flags), tokens de sessão, redirect OneDrive legítimo. Pipeline: Browser → JS download → Custom Base91 decoder → IOC extraction → CERT.br report. | `Python` `Base91` `Node.js` `VM Context` `IOC Extraction` `CERT.br` |
+
+<details>
+<summary><b>🇺🇸 English version</b></summary>
+
 **20+ vulnerabilities** in Brazilian government/sector infrastructure — **5 confirmed fixes** via CERT.br/CTIR Gov (Mar–Jun 2026). Three disclosure waves: zero retention, multi-channel notification (CERT.br + CTIR Gov + direct), post-fix verification.
 
 | | Project | The Thesis | Stack |
@@ -196,17 +206,9 @@
 | 🎯 | **Phishing Takedown: Microsoft/OneDrive** | Took down active phishing infra (procorereviews.com → sustained HTTP 521) via controlled 10k submission flood. Rotated infra (kochcnfvontainer.vu) mapped, analyzed, reported to CERT.br/Cloudflare. Real HTML extraction via browser bypassing anti-bot (Cloudflare Turnstile + fingerprinting). | `OSINT` `Burp Suite` `Shodan` `Google Dorking` `Base91 Decoder` `CERT.br` `Cloudflare` |
 | 🔬 | **JS Deobfuscation & Threat Intel Pipeline** | Reversed 3 JS files obfuscated with custom Base91 (3 unique alphabets). Extracted anti-bot config (PageConfig: 32 flags), session tokens, legitimate OneDrive redirect. Pipeline: Browser → JS download → Custom Base91 decoder → IOC extraction → CERT.br report. | `Python` `Base91` `Node.js` `VM Context` `IOC Extraction` `CERT.br` |
 
-<details>
-<summary><b>🇺🇸 English version</b></summary>
-
-| | Project | The Thesis | Stack |
-|---|---|---|---|
-| 🎯 | **Phishing Takedown: Microsoft/OneDrive** | Took down active phishing infrastructure (procorereviews.com → sustained HTTP 521) via controlled flood of 10k submissions. Rotated infrastructure (kochcnfvontainer.vu) mapped, analyzed, reported to CERT.br/Cloudflare. Real HTML extraction via browser bypassing anti-bot (Cloudflare Turnstile + fingerprinting). | `OSINT` `Burp Suite` `Shodan` `Google Dorking` `Base91 Decoder` `CERT.br` `Cloudflare` |
-| 🔬 | **JS Deobfuscation & Threat Intel Pipeline** | Reversed 3 JS files obfuscated with custom Base91 (3 unique alphabets). Extracted anti-bot config (PageConfig: 32 flags), session tokens, legitimate OneDrive redirect. Pipeline: Browser → JS download → Custom Base91 decoder → IOC extraction → CERT.br report. | `Python` `Base91` `Node.js` `VM Context` `IOC Extraction` `CERT.br` |
-
 </details>
 
-**Methodology:** Passive Recon (Google Dorking, Shodan, CT logs, passive DNS) → Exposure Verification (confirm unauthenticated access) → Documentation (screenshots, headers, timestamps) → Secure Deletion (`shred -u`, zero retention) → Multi-channel Notification (CERT.br + CTIR Gov + direct, simultaneous) → Follow-up (post-fix verification, documented closure). Compliance: NIST CSF, LGPD Art. 46/48, OWASP Top 10.
+**Metodologia:** Passive Recon (Google Dorking, Shodan, CT logs, passive DNS) → Exposure Verification (confirm unauthenticated access) → Documentation (screenshots, headers, timestamps) → Secure Deletion (`shred -u`, zero retention) → Multi-channel Notification (CERT.br + CTIR Gov + direct, simultaneous) → Follow-up (post-fix verification, documented closure). Compliance: NIST CSF, LGPD Art. 46/48, OWASP Top 10.
 
 ---
 
@@ -219,9 +221,15 @@
 > - English: 20+ vulnerabilities in Brazilian government/sectoral infrastructure — 5 confirmed remediations via CERT.br/CTIR Gov (Mar–Jun 2026). Three waves of responsible disclosure: zero retention, multi-channel notification, post-fix verification.
 > - Phishing/Microsoft OneDrive takedown: took down origin server (procorereviews.com) via abuse report
 
+> **Meritage Homes** · Software Engineer (Freelance) · `Nov 2025 — Dez 2025 · 2 meses · Remoto`
+>
+> Migrei 500GB de dados críticos para Azure Cosmos DB com zero downtime. Arquitetei pipelines de IA para geração de ativos criativos (GPT-4.1, DALL-E 3, Flux). Desenvolvi infraestrutura de chatbot cross-platform (iOS/Android) com roteamento de intenção context-aware. Engenhei pipelines de parsing de PDF para ingestão por LLM, com tradução/transcrição em espanhol e português. Conduzi sondagens E2E e UAT simulando workflows de corretores.
+>
+> English: Migrated 500GB of critical data to Azure Cosmos DB with zero downtime. Architected AI creative pipelines (GPT-4.1, DALL-E 3, Flux). Built cross-platform chatbot infrastructure (iOS/Android) with context-aware intent routing. Engineered PDF parsing pipelines for LLM ingestion with Spanish/Portuguese translation/transcription. Conducted E2E probing and UAT simulating realtors' workflows.
+
 > **Paware Softwares** · Full-Stack Developer · `Out 2025 — Mai 2026`
 >
-> Migrei centenas de GB de datasets legados do Google Drive para **Azure Cosmos DB** (Meritage Homes, EUA) — pipeline com extração via cookies, compressão, Docker e validação de schema. Resolvi bug crítico de MIME types cross-platform (Android vs iOS). Arquitetei pipeline orquestrado por LLM de geração de imagens para o **HelloSocial** — GPT-4.1, Flux + DALL-E 3.
+> Migrei centenas de GB de datasets legados do Google Drive para **Azure Cosmos DB** — pipeline com extração via cookies, compressão, Docker e validação de schema. Resolvi bug crítico de MIME types cross-platform (Android vs iOS). Arquitetei pipeline orquestrado por LLM de geração de imagens para o **HelloSocial** — GPT-4.1, Flux + DALL-E 3.
 
 > **SuperNerds** · Instrutor de Robótica · `Set — Out 2025`
 >
@@ -230,9 +238,13 @@
 <details>
 <summary><b>🇺🇸 English version</b></summary>
 
+> **Meritage Homes** · Software Engineer (Freelance) · `Nov 2025 — Dec 2025 · 2 months · Remote`
+>
+> Migrated 500GB of critical data to Azure Cosmos DB with zero downtime, ensuring high availability and system resilience. Architected AI creative pipelines (GPT-4.1, DALL-E 3, Flux). Built cross-platform chatbot infrastructure (iOS/Android) with context-aware intent routing. Engineered PDF parsing pipelines for LLM ingestion with Spanish/Portuguese translation/transcription. Conducted E2E probing and UAT simulating realtors' workflows.
+
 > **Paware Softwares** · Full-Stack Developer · `Oct 2025 — May 2026`
 >
-> Migrated hundreds of GB of legacy datasets from Google Drive to **Azure Cosmos DB** (Meritage Homes, USA) — pipeline with cookie-based extraction, compression, Docker, and schema validation. Resolved critical cross-platform MIME type bug (Android vs iOS). Architected LLM-orchestrated image-generation pipeline for **HelloSocial** — GPT-4.1, Flux + DALL-E 3.
+> Migrated hundreds of GB of legacy datasets from Google Drive to **Azure Cosmos DB** — pipeline with cookie-based extraction, compression, Docker, and schema validation. Resolved critical cross-platform MIME type bug (Android vs iOS). Architected LLM-orchestrated image-generation pipeline for **HelloSocial** — GPT-4.1, Flux + DALL-E 3.
 
 > **SuperNerds** · Robotics Instructor · `Sep — Oct 2025`
 >
