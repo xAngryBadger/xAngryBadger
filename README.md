@@ -77,13 +77,13 @@
 
 **2022–2024** — Engenharia Química na UFSJ. Longe do código, acompanhando IA.
 
-**2024** — Pivotei para Computação. Construí o **ForestAI** do zero — Stack Overflow + Thonny, sem assistência de IA. Com anotação manual de imagens de drone, treinei modelos em GPU local, interpretei curvas no TensorBoard.
+**2024** — Migrei para Computação. Construí o **ForestAI** do zero — Stack Overflow + Thonny, sem assistência de IA. Com anotação manual de imagens de drone, treinei modelos em GPU local, interpretei curvas no TensorBoard.
 
 **2024–2025** — Expansão autônoma: scripts, deploys, serviços.
 
-**2025** — Um amigo viu o ForestAI. Contrato freelance com a **Meritage Homes** (EUA) — migrei 500GB para Cosmos DB com zero downtime, arquitetei pipelines de IA (GPT-4.1, DALL-E 3, Flux), infra de chatbot cross-platform e parsing de PDF para LLM. Paralelamente, entrei para a **Paware Softwares**, onde arquitetei **HarpIA** — pipeline orquestrado por LLM para geração de imagens. Construí também **Urutau** (app offline-first) e **Orca** (motor de planejamento).
+**2025** — Um amigo viu o ForestAI. Contrato freelance com a **Meritage Homes** (EUA) — migrei 500GB para Cosmos DB com zero downtime, arquitetei pipelines de IA (GPT-4.1, DALL-E 3, Flux), infra de chatbot cross-platform e parsing de PDF para LLM. Paralelamente, entrei na **Paware Softwares**, onde arquitetei **HarpIA** — pipeline orquestrado por LLM para geração de imagens. Construí também **Urutau** (app offline-first) e **Orca** (motor de planejamento).
 
-**2026** — Divulgação responsável: 20+ vulnerabilidades em infraestrutura governamental e setorial brasileira. 5 correções confirmadas via CERT.br/CTIR Gov. Análise sistêmica de plataforma (Base44 auth failure). Três ondas de divulgação (Mar–Jun 2026).
+**2026** — Divulgação responsável: 20+ vulnerabilidades em infraestrutura governamental e setorial brasileira. 5 correções confirmadas via CERT.br/CTIR Gov. Análise sistêmica de plataforma (falha de autenticação Base44). Três ondas de divulgação (Mar–Jun 2026).
 
 <details>
 <summary><b>🇺🇸 English version</b></summary>
@@ -131,15 +131,15 @@
 
 | | Projeto | Descrição | Stack |
 |---|---|---|---|
-| 🦊 | [**Fennec Excel**](https://github.com/xAngryBadger/Sahara-Fenneck) | Assistente de IA local para Excel — agente ReAct (Ollama), 6+ integrações OAuth, instalador Windows | `Python` `Ollama` `CustomTkinter` `xlwings/COM` |
-| 🦫 | [**Capivara**](https://xangrybadger.github.io/capivara/) · [src](https://github.com/xAngryBadger/capivara) | Suíte PDF — 15 ferramentas (DOCX→PDF, merge, split, OCR, compress, watermark...) | `React 19` `FastAPI` `pypdf` `PyMuPDF` |
-| 👁️ | [**Tarsier**](https://xangrybadger.github.io/tarsier/) · [src](https://github.com/xAngryBadger/tarsier) | Workbench JSON 100% client-side — árvore colapsável, transformações, stats | `React 19` `TypeScript` `Vite` `Tailwind` |
-| 🦜 | [**Kakapo**](https://xangrybadger.github.io/kakapo/) · [src](https://github.com/xAngryBadger/kakapo) | Editor de imagens no navegador — filtros, crop, resize, text overlay | `React 19` `Canvas API` `TypeScript` |
-| 🦉 | [**Oilbird**](https://xangrybadger.github.io/oilbird/) · [src](https://github.com/xAngryBadger/oilbird) | Markdown → PDF com preview live e WeasyPrint profissional | `React 19` `FastAPI` `WeasyPrint` |
-| 🦢 | [**Cegonha**](https://xangrybadger.github.io/cegonha/) · [src](https://github.com/xAngryBadger/cegonha) | Gerador de currículo com formulários estruturados e exportação PDF server-side | `React 19` `FastAPI` `reportlab` |
+| 🦊 | [**Fennec Excel**](https://github.com/xAngryBadger/Sahara-Fenneck) | Assistente de IA local para Excel — agente ReAct (Ollama), 6+ integrações OAuth, instalador para Windows | `Python` `Ollama` `CustomTkinter` `xlwings/COM` |
+| 🦫 | [**Capivara**](https://xangrybadger.github.io/capivara/) · [src](https://github.com/xAngryBadger/capivara) | Suíte PDF — 15 ferramentas (DOCX→PDF, mesclagem, divisão, OCR, compressão, marca d'água...) | `React 19` `FastAPI` `pypdf` `PyMuPDF` |
+| 👁️ | [**Tarsier**](https://xangrybadger.github.io/tarsier/) · [src](https://github.com/xAngryBadger/tarsier) | Workbench JSON 100% no lado do cliente — árvore colapsável, transformações, estatísticas | `React 19` `TypeScript` `Vite` `Tailwind` |
+| 🦜 | [**Kakapo**](https://xangrybadger.github.io/kakapo/) · [src](https://github.com/xAngryBadger/kakapo) | Editor de imagens no navegador — filtros, recorte, redimensionamento, sobreposição de texto | `React 19` `Canvas API` `TypeScript` |
+| 🦉 | [**Oilbird**](https://xangrybadger.github.io/oilbird/) · [src](https://github.com/xAngryBadger/oilbird) | Markdown → PDF com visualização em tempo real e WeasyPrint profissional | `React 19` `FastAPI` `WeasyPrint` |
+| 🦢 | [**Cegonha**](https://xangrybadger.github.io/cegonha/) · [src](https://github.com/xAngryBadger/cegonha) | Gerador de currículo com formulários estruturados e exportação PDF no lado do servidor | `React 19` `FastAPI` `reportlab` |
 | 🤖 | **MaineCoon** | Fork do [MinePal](https://github.com/Anorak001/MinePal) com comandos em linguagem natural via LLM | `Node.js` `mineflayer` `NVIDIA NIM API` |
 | 🫏 | [**Quokka**](https://github.com/xAngryBadger/quokka-trainee-cloud) | API Flask com pipeline CI/CD completo — Docker, Terraform, AWS ECS | `Python` `Flask` `Docker` `Terraform` `AWS` |
-| 🐜 | ~~**Anta**~~ | *Arquivado — mergeado no Capivara como ferramenta Compress PDF* | `React 19` `FastAPI` `pypdf` |
+| 🐜 | ~~**Anta**~~ | *Arquivado — mesclado ao Capivara como ferramenta de compressão de PDF* | `React 19` `FastAPI` `pypdf` |
 
 <details>
 <summary><b>🇺🇸 English — Tools & Utilities</b></summary>
@@ -162,7 +162,7 @@
 
 | | Projeto | Descrição | Stack |
 |---|---|---|---|
-| 🦡 | **Badger RAG** | Base de conhecimento autoatualizável do codebase — MCP server, ChromaDB, watcher Rust | `Python 3.12` `FastMCP` `ChromaDB` `Rust` `NVIDIA NIM` |
+| 🦡 | **Badger RAG** | Base de conhecimento autoatualizável do código-fonte — MCP server, ChromaDB, watcher Rust | `Python 3.12` `FastMCP` `ChromaDB` `Rust` `NVIDIA NIM` |
 | 🎨 | **Design Catalog** | Catálogo de padrões de design premium — 23 tokens, 23 patterns, 22 snippets | `Markdown` `JSON` `CSS/JS` |
 | 🌲 | **Inovesa** | Site institucional premium — Inovesa Florestal e Ambiental | `React 19` `Vite 6` `Tailwind v4` `Motion` `Lenis` |
 | 💰 | **FinanceTracker** | App de finanças pessoais — Expo/React Native mobile | `React Native` `Expo 54` `TypeScript` |
@@ -193,8 +193,8 @@
 
 | | Projeto | A tese / The Thesis | Stack |
 |---|---|---|---|
-| 🎯 | **Phishing Takedown: Microsoft/OneDrive** | Derrubei infraestrutura de phishing ativa (procorereviews.com → HTTP 521 sustentado) via flood controlado de 10k submissões. Infra rotacionada (kochcnfvontainer.vu) mapeada, analisada, reportada ao CERT.br/Cloudflare. Extração de HTML real via browser bypassando anti-bot (Cloudflare Turnstile + fingerprinting). | `OSINT` `Burp Suite` `Shodan` `Google Dorking` `Base91 Decoder` `CERT.br` `Cloudflare` |
-| 🔬 | **JS Deobfuscation & Threat Intel Pipeline** | Reversão de 3 arquivos JS ofuscados com Base91 customizado (3 alfabetos únicos). Extração de config anti-bot (PageConfig: 32 flags), tokens de sessão, redirect OneDrive legítimo. Pipeline: Browser → JS download → Custom Base91 decoder → IOC extraction → CERT.br report. | `Python` `Base91` `Node.js` `VM Context` `IOC Extraction` `CERT.br` |
+| 🎯 | **Phishing Takedown: Microsoft/OneDrive** | Derrubei infraestrutura de phishing ativa (procorereviews.com → HTTP 521 sustentado) via flood controlado de 10k submissões. Infra rotacionada (kochcnfvontainer.vu) mapeada, analisada, reportada ao CERT.br/Cloudflare. Extração de HTML real via navegador contornando o anti-bot (Cloudflare Turnstile + fingerprinting). | `OSINT` `Burp Suite` `Shodan` `Google Dorking` `Base91 Decoder` `CERT.br` `Cloudflare` |
+| 🔬 | **JS Deobfuscation & Threat Intel Pipeline** | Reversão de 3 arquivos JS ofuscados com Base91 personalizado (3 alfabetos únicos). Extração de config anti-bot (PageConfig: 32 flags), tokens de sessão, redirect OneDrive legítimo. Pipeline: Navegador → download JS → decodificador Base91 personalizado → extração de IOCs → relatório CERT.br. | `Python` `Base91` `Node.js` `VM Context` `IOC Extraction` `CERT.br` |
 
 <details>
 <summary><b>🇺🇸 English version</b></summary>
@@ -258,7 +258,7 @@
 
 **Cruzeiro do Sul** · Engenharia de Computação · 2024 — 2029 · *em andamento*
 
-**UFSJ** · Engenharia Química · 2022 — 2024 · *pivô*
+**UFSJ** · Engenharia Química · 2022 — 2024 · *transição*
 
 **UFOP** · Química Industrial · 2022 · *onde Python começou*
 
