@@ -3,16 +3,12 @@
 <td width="70%" align="left" valign="top">
 
 # Isaac Nathan
-**Desenvolvedor Full-Stack · Engenharia de Computação · Cybersecurity · Azure · IA · Flutter · Security Research**
+**Engenheiro de Software · IA Aplicada · Cloud (Azure) · Full-Stack**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-xAngryBadger-456A4B?style=flat-square)](https://xangrybadger.github.io/isaac-vitae/)
-[![Personal](https://img.shields.io/badge/Personal-nathan-8B6914?style=flat-square)](https://xangrybadger.github.io/nathan/)
+[![Portfolio](https://img.shields.io/badge/Portf%C3%B3lio-isaac vitae-456A4B?style=flat-square)](https://xangrybadger.github.io/isaac-vitae/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Isaac%20Nathan-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/isaac-nathan-da-silva-barbosa-815b212ab/)
 [![Email](https://img.shields.io/badge/Email-isaacnathandasilva-D4A017?style=flat-square&logo=gmail)](mailto:isaacnathandasilva@gmail.com)
-[![Security](https://img.shields.io/badge/Security-Disclosures-DA3633?style=flat-square)](https://github.com/xAngryBadger/security-disclosures)
-[![CERT.br](https://img.shields.io/badge/CERT.br-Verified-00A859?style=flat-square)](https://cert.br)
-[![CTIR Gov](https://img.shields.io/badge/CTIR%20Gov-5%20Fixes-1E3A8A?style=flat-square)](https://www.gov.br/ctir)
-[![Phishing Takedown](https://img.shields.io/badge/Phishing-Takedown-DA3633?style=flat-square)](https://github.com/xAngryBadger/security-disclosures)
+[![Localiza%C3%A7%C3%A3o](https://img.shields.io/badge/Mariana-MG-5D5A55?style=flat-square)](#)
 
 </td>
 <td width="30%" align="right" valign="top">
@@ -23,16 +19,14 @@
 </tr>
 </table>
 
-**🇧🇷 PT-BR** — Engenheiro de Computação com background em Química. Eu não sigo tutoriais; eu quebro coisas até entender. Construo sistemas que **funcionam sem internet**, que **automatizam geração de conteúdo com IA**, que **migraram meio terabyte de dados legados** para a nuvem — e que começaram como anotação manual de imagens de drone, sem IA, do jeito mais difícil.
+**🇧🇷 PT-BR** — Engenheiro de Software na NTT Data (GDNE), no projeto Bradesco: atuo com Java e Spring Boot no backend, Angular no frontend e plataformas de IA multi-agente em produção, integrando mainframe CICS/COBOL como API REST. Anteriormente, migrei +500 GB de dados legados para Azure Cosmos DB com zero downtime (Meritage Homes, EUA) e construí apps offline-first em Flutter e motores de planejamento operacional em Python/FastAPI. Também mantenho relatórios de divulgação responsável reportados via CERT.br/CTIR Gov.
 
-> *"O caminho difícil constrói a base mais sólida — e o ForestAI me ensinou que, quando o caminho difícil é o único, a única saída é seguir em frente."*
+> Stack do dia: Java · Spring Boot · Python · FastAPI · Angular · React · TypeScript · Flutter · Azure · Azure Cosmos DB · Docker · PyTorch · API REST · Mainframe (CICS/COBOL)
 
 <details>
 <summary><b>🇺🇸 English version</b></summary>
 
-**🇺🇸 English** — Computer Engineering student & security researcher with a background in Chemistry. I don't follow tutorials; I break things until I understand them. I build systems that **work offline**, that **automate content generation with AI**, that **migrated half a terabyte of legacy data** to the cloud — and that started as manually annotated drone images, without AI, the hardest way possible.
-
-> *"The hard way builds the strongest foundation — and ForestAI taught me that when the hard way is the only way, the only way out is through."*
+**🇺🇸 English** — Software Engineer at NTT Data (GDNE) on the Bradesco project: Java and Spring Boot on the backend, Angular on the frontend, and multi-agent AI platforms in production, integrating CICS/COBOL mainframes as REST APIs. Previously migrated 500+ GB of legacy data to Azure Cosmos DB with zero downtime (Meritage Homes, USA) and built offline-first Flutter apps and operational planning engines in Python/FastAPI. I also maintain responsible-disclosure reports filed through CERT.br/CTIR Gov.
 
 </details>
 
@@ -40,32 +34,29 @@
 
 ### Stack
 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Azure Cosmos DB](https://img.shields.io/badge/Cosmos_DB-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux_CachyOS-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-![GPT-4.1](https://img.shields.io/badge/GPT--4.1-412991?style=flat-square&logo=openai&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
-![Shodan](https://img.shields.io/badge/Shodan-F7041B?style=flat-square&logo=shodan&logoColor=white)
 
 <details>
-<summary><b>Stack completo / Full Stack</b></summary>
+<summary><b>Stack completa / Full stack</b></summary>
 
 | Categoria | Tecnologias |
 |---|---|
-| **IA & Dados** | GPT-4.1 · DALL-E 3 · Flux · Ollama · PyTorch · DeepForest · Azure OpenAI · Gemini SDK · pandas |
-| **Backend** | Python · FastAPI · Node.js · Express · Azure Cosmos DB · PocketBase · SQL · Drift/SQLite |
-| **Frontend** | React 19 · TypeScript · Flutter · Tailwind CSS v4 · Vite |
-| **Cloud & Infra** | Azure · Docker · Git · PocketBase · Linux (CachyOS/Hyprland) · PyInstaller/Inno Setup |
-| **Integrações** | Mercado Pago PIX · Canva Connect · Placid · Templated.io · Pexels API · NVIDIA NIM |
-| **Segurança** | OSINT · Nmap · Wireshark · Burp Suite · Shodan · SNMP · WordPress audit · LGPD · NIST CSF · OWASP Top 10 · TLP · CERT.br/CTIR |
+| **Backend** | Java · Spring Boot · Python · FastAPI · Node.js · SQL · API REST · OpenAPI/Swagger · JWT |
+| **Frontend & Mobile** | Angular · React 19 · TypeScript · Flutter/Dart · Tailwind CSS · Vite |
+| **IA & Dados** | PyTorch · DeepForest · Azure OpenAI · GPT-4.1 · DALL-E 3 · Flux · Ollama · pandas |
+| **Cloud & Infra** | Azure · Azure Cosmos DB · Azure Service Bus · Redis · Docker · Git · Linux |
+| **Integração & Legado** | API REST · Mainframe · CICS · COBOL |
+| **Segurança** | OSINT · Engenharia Reversa (JS/Base91) · NIST CSF · OWASP · Threat Intel · CERT.br/CTIR Gov |
 
 </details>
 
@@ -77,28 +68,74 @@
 
 **2022–2024** — Engenharia Química na UFSJ. Longe do código, acompanhando IA.
 
-**2024** — Migrei para Computação. Construí o **ForestAI** do zero — Stack Overflow + Thonny, sem assistência de IA. Com anotação manual de imagens de drone, treinei modelos em GPU local, interpretei curvas no TensorBoard.
+**2024** — Migrei para Computação. Construí o **ForestAI** do zero — Stack Overflow + Thonny, sem assistência de IA. Anotação manual de imagens de drone, treinamento em GPU local, leitura de curvas no TensorBoard.
 
-**2024–2025** — Expansão autônoma: scripts, deploys, serviços.
+**2024–2025** — Expansão autônoma: scripts, deploys, serviços. Construí **Urutau** (app offline-first) e **Orca** (motor de planejamento).
 
-**2025** — Um amigo viu o ForestAI. Contrato freelance com a **Meritage Homes** (EUA) — migrei 500GB para Cosmos DB com zero downtime, arquitetei pipelines de IA (GPT-4.1, DALL-E 3, Flux), infra de chatbot cross-platform e parsing de PDF para LLM. Paralelamente, entrei na **Paware Softwares**, onde arquitetei **HarpIA** — pipeline orquestrado por LLM para geração de imagens. Construí também **Urutau** (app offline-first) e **Orca** (motor de planejamento).
+**2025** — Contrato freelance com a **Meritage Homes** (Orlando/EUA): migrei +500 GB de dados legados para Azure Cosmos DB com zero downtime e construí agente de PDF multilíngue (PT/EN/ES) com entrega por WhatsApp. Paralelamente, na **Paware Softwares**, arquitetei o pipeline de geração de mídia do **HelloSocial** (GPT-4.1, Flux, DALL-E 3) e a base do **HarpIA**.
 
-**2026** — Divulgação responsável: 20+ vulnerabilidades em infraestrutura governamental e setorial brasileira. 5 correções confirmadas via CERT.br/CTIR Gov. Análise sistêmica de plataforma (falha de autenticação Base44). Três ondas de divulgação (Mar–Jun 2026).
+**2026** — **NTT Data (GDNE), projeto Bradesco**: microsserviço Java/Spring Boot expondo dados de mainframe CICS/COBOL como API REST, testes ponta a ponta e observabilidade na plataforma de IA multi-agente (BIA Tech Chat), frontend Angular. Também construí o **HarpIA** (motor de automação criativa multi-modelo) e reportei vulnerabilidades via CERT.br/CTIR Gov.
 
 <details>
 <summary><b>🇺🇸 English version</b></summary>
 
 **2022** — Python at UFOP (Industrial Chemistry). Thonny IDE, pre-GPT era, extra afternoon classes.
 
-**2022–2024** — Chemical Engineering at UFSJ. Away from code, watching AI closely.
+**2024** — Pivoted to Computer Engineering. Built **ForestAI** from scratch — Stack Overflow + Thonny, no AI assistance. Manually annotated drone imagery, trained models on local GPU, read TensorBoard curves.
 
-**2024** — Pivoted to Computer Engineering. Built **ForestAI** from scratch — Stack Overflow + Thonny, no AI assistance. Manually annotated drone imagery, trained models on local GPU, interpreted TensorBoard curves.
+**2025** — Freelance contract with **Meritage Homes** (USA): migrated 500+ GB of legacy data to Azure Cosmos DB with zero downtime, built a multilingual (PT/EN/ES) PDF agent with WhatsApp delivery. Concurrently at **Paware Softwares**, architected the **HelloSocial** media-generation pipeline (GPT-4.1, Flux, DALL-E 3) and the foundation of **HarpIA**.
 
-**2024–2025** — Self-taught expansion: system scripts, Windows deployments, IT services.
+**2026** — **NTT Data (GDNE), Bradesco project**: Java/Spring Boot microservice exposing CICS/COBOL mainframe data as REST APIs, end-to-end testing and observability on the multi-agent AI platform (BIA Tech Chat), Angular frontend. Also built **HarpIA** and filed vulnerability reports through CERT.br/CTIR Gov.
 
-**2025** — A friend saw ForestAI. Freelance contract with **Meritage Homes** (USA) — migrated 500GB to Cosmos DB with zero downtime, architected AI pipelines (GPT-4.1, DALL-E 3, Flux), cross-platform chatbot infra and PDF parsing for LLM ingestion. Concurrently, joined **Paware Softwares**, where I architected **HarpIA** — LLM-orchestrated AI pipeline for image generation. Also built **Urutau** (offline-first app) and **Orca** (planning engine).
+</details>
 
-**2026** — Responsible disclosure: 20+ vulnerabilities in Brazilian government and sectoral infrastructure. 5 confirmed fixes via CERT.br/CTIR Gov. Platform-level systemic analysis (Base44 auth failure). Three disclosure waves (Mar–Jun 2026).
+---
+
+### Experiência Profissional
+
+> **NTT Data (GDNE) — Engenheiro de Software** · projeto Bradesco · `Ago 2026 — atual · Remoto`
+>
+> - Microsserviço em Java/Spring Boot que expõe dados cadastrais de mainframe CICS/COBOL como API REST (OpenAPI/Swagger, JWT), em produção.
+> - Testes ponta a ponta na plataforma de IA multi-agente (BIA Tech Chat): documentação de fluxos, diagramas técnicos, testes de prompt injection e roteamento, e testes automatizados de observabilidade das responses.
+> - Frontend Angular, automação de testes, dados sintéticos e análise de performance (Dynatrace, Elasticsearch).
+
+> **Meritage Homes — Engenheiro de Software (Freelancer)** · Orlando/EUA · `Out 2025 — Mai 2026 · Remoto`
+>
+> - Migrei +500 GB de dados legados para Azure Cosmos DB — extração automatizada, validação de schema e rollback automático, sem interromper a operação.
+> - Resolvi inconsistências cross-platform de MIME types (Android vs iOS) por camada de abstração própria.
+> - Construí agente de geração de PDF multilíngue (PT/EN/ES) em tempo real, com entrega por WhatsApp e indexação de documentação técnica.
+
+> **Paware Softwares — Engenheiro de Software Full-Stack** · `Out 2025 — Mai 2026 · Remoto`
+>
+> - Arquitetei pipeline assíncrono de geração de mídia (HelloSocial) — GPT-4.1, Flux Kontext Pro, DALL-E 3 e APIs de design, com fallback local para SQLite.
+> - Implementei ambientes Docker para testes de agentes de IA conversacionais.
+
+> **Inovesa Florestal — Engenheiro Full-Stack & Mobile (Freelancer)** · `Mai 2026 — atual · Mariana, MG`
+>
+> - Líder técnico de app Flutter offline-first para inventário florestal, com motor de sincronização próprio.
+> - Motor de planejamento operacional em Python/FastAPI (Orca) e painéis administrativos React/TypeScript.
+
+> **Divulgação responsável — Responsible Disclosure** · `Mar 2026 — atual`
+>
+> - Relatórios de vulnerabilidades em infraestrutura governamental/setorial via CERT.br/CTIR Gov, com 5 correções confirmadas. Documentação metodológica em [security-disclosures](https://github.com/xAngryBadger/security-disclosures).
+
+<details>
+<summary><b>🇺🇸 English version</b></summary>
+
+> **NTT Data (GDNE) — Software Engineer** · Bradesco project · `Aug 2026 — present · Remote`
+> Java/Spring Boot microservice exposing CICS/COBOL mainframe data as REST APIs; end-to-end testing, documentation and observability on the multi-agent AI platform; Angular frontend.
+
+> **Meritage Homes — Software Engineer (Freelance)** · USA · `Oct 2025 — May 2026 · Remote`
+> Migrated 500+ GB of legacy data to Azure Cosmos DB with zero downtime; cross-platform MIME type resolution; multilingual PDF agent with WhatsApp delivery.
+
+> **Paware Softwares — Full-Stack Engineer** · `Oct 2025 — May 2026 · Remote`
+> Architected the HelloSocial async media-generation pipeline (GPT-4.1, Flux, DALL-E 3); Docker environments for AI agent testing.
+
+> **Inovesa Florestal — Full-Stack & Mobile Engineer (Freelance)** · `May 2026 — present`
+> Technical lead on an offline-first Flutter forest-inventory app; Python/FastAPI planning engine (Orca); React/TypeScript admin panels.
+
+> **Responsible Disclosure** · `Mar 2026 — present`
+> Vulnerability reports filed through CERT.br/CTIR Gov, 5 confirmed fixes. Methodology documentation at [security-disclosures](https://github.com/xAngryBadger/security-disclosures).
 
 </details>
 
@@ -110,178 +147,58 @@
 
 | | Projeto | A tese / The Thesis | Stack |
 |---|---|---|---|
-| 🤖 | [**HarpIA**](https://github.com/xAngryBadger/harpIA) | Pipeline orquestrado por LLM com 9+ modelos de IA (redação, imagens, vídeo). Nasceu do **HelloSocial**. | `Python` `GPT-4.1` `DALL-E 3` `Flux` `Azure` |
-| 🌿 | [**ForestAI**](https://github.com/xAngryBadger/ForestAi) | Detecção de espécies florestais com Deep Learning — construído **do zero, sem código gerado por IA**, com anotação manual de imagens de drone. mAP 0.09 — data quality > model architecture. | `DeepForest` `PyTorch` |
-| 📱 | [**Urutau**](https://github.com/xAngryBadger/urutau-app) | App offline-first de inventário florestal. Serviço de sincronização customizado — detecção de conflitos, remapeamento de UUID, recuperação de sinc com rollback. Foi construído porque o "mundo real" não pede permissão para ter sinal. | `Flutter` `Dart` `Drift/SQLite` `React` `PocketBase` |
-| 🏗️ | [**Orca**](https://github.com/xAngryBadger/orca) | Motor de planejamento para restauração florestal. Gera dossiês executivos, cronogramas, tarifas. Python puro, regras de negócio complexas. | `Python` `pandas` `FastAPI` `Rich` `openpyxl` |
+| 🤖 | [**HarpIA**](https://github.com/xAngryBadger/harpIA) | Pipeline orquestrado por LLM com 7+ modelos de IA (redação, imagens, vídeo). Nasceu do **HelloSocial**. Backend com swap SQLite ↔ Azure Cosmos DB. | `Python` `FastAPI` `GPT-4.1` `DALL-E 3` `Flux` `Azure` |
+| 🌿 | [**ForestAI**](https://github.com/xAngryBadger/ForestAi) | Detecção de espécies florestais com Deep Learning — construído **do zero, sem código gerado por IA**, com anotação manual de imagens de drone e treinamento em GPU local. | `PyTorch` `DeepForest` `OpenCV` |
+| 📱 | [**Urutau (Flora Sensus)**](https://github.com/xAngryBadger/urutau-app) | App offline-first de inventário florestal. Sincronização própria com detecção de conflitos e rollback transacional — construído porque o campo não pede permissão para perder sinal. | `Flutter` `Dart` `Drift/SQLite` `React` |
+| 🏗️ | [**Orca**](https://github.com/xAngryBadger/orca) | Motor de planejamento para restauração florestal em larga escala: dossiês executivos, cronogramas, tarifas e equipes. Python puro, regras de negócio complexas. | `Python` `pandas` `FastAPI` `Rich` |
 
 <details>
 <summary><b>🇺🇸 English — Featured</b></summary>
 
 | | Project | The Thesis | Stack |
 |---|---|---|---|
-| 🤖 | [**HarpIA**](https://github.com/xAngryBadger/harpIA) | LLM-orchestrated pipeline with 9+ AI models (copywriting, images, video). Birthed from **HelloSocial**. | `Python` `GPT-4.1` `DALL-E 3` `Flux` `Azure` |
-| 🌿 | [**ForestAI**](https://github.com/xAngryBadger/ForestAi) | Forest species detection with Deep Learning — built **from scratch without AI assistance**, with manual annotation of drone imagery. mAP 0.09 — data quality > model architecture. | `DeepForest` `PyTorch` |
-| 📱 | [**Urutau**](https://github.com/xAngryBadger/urutau-app) | Offline-first forest inventory app. Custom sync with conflict detection, UUID remapping, sync recovery with rollback. Built because the "real world" doesn't ask for permission before losing signal. | `Flutter` `Dart` `Drift/SQLite` `React` `PocketBase` |
-| 🏗️ | [**Orca**](https://github.com/xAngryBadger/orca) | Planning engine for forest restoration. Generates executive dossiers, schedules, tariffs. Pure Python, complex business logic. | `Python` `pandas` `FastAPI` `Rich` `openpyxl` |
+| 🤖 | [**HarpIA**](https://github.com/xAngryBadger/harpIA) | LLM-orchestrated pipeline with 7+ AI models (copy, images, video). Birthed from **HelloSocial**. Swappable SQLite ↔ Azure Cosmos DB backend. | `Python` `FastAPI` `GPT-4.1` `DALL-E 3` `Flux` `Azure` |
+| 🌿 | [**ForestAI**](https://github.com/xAngryBadger/ForestAi) | Forest species detection with Deep Learning — built **from scratch without AI-assisted coding**, with manual drone-image annotation and local GPU training. | `PyTorch` `DeepForest` `OpenCV` |
+| 📱 | [**Urutau (Flora Sensus)**](https://github.com/xAngryBadger/urutau-app) | Offline-first forest inventory app with custom sync — conflict detection and transactional rollback. | `Flutter` `Dart` `Drift/SQLite` `React` |
+| 🏗️ | [**Orca**](https://github.com/xAngryBadger/orca) | Planning engine for large-scale forest restoration: executive dossiers, schedules, tariffs, crews. | `Python` `pandas` `FastAPI` `Rich` |
 
 </details>
 
-#### 🛠️ Ferramentas & Utilitários / Tools & Utilities
+#### 🛠️ Ferramentas / Tools
 
-| | Projeto | Descrição | Stack |
-|---|---|---|---|
-| 🦊 | [**Fennec Excel**](https://github.com/xAngryBadger/Sahara-Fenneck) | Assistente de IA local para Excel — agente ReAct (Ollama), 6+ integrações OAuth, instalador para Windows | `Python` `Ollama` `CustomTkinter` `xlwings/COM` |
-| 🦫 | [**Capivara**](https://xangrybadger.github.io/capivara/) · [src](https://github.com/xAngryBadger/capivara) | Suíte PDF — 15 ferramentas (DOCX→PDF, mesclagem, divisão, OCR, compressão, marca d'água...) | `React 19` `FastAPI` `pypdf` `PyMuPDF` |
-| 👁️ | [**Tarsier**](https://xangrybadger.github.io/tarsier/) · [src](https://github.com/xAngryBadger/tarsier) | Workbench JSON 100% no lado do cliente — árvore colapsável, transformações, estatísticas | `React 19` `TypeScript` `Vite` `Tailwind` |
-| 🦜 | [**Kakapo**](https://xangrybadger.github.io/kakapo/) · [src](https://github.com/xAngryBadger/kakapo) | Editor de imagens no navegador — filtros, recorte, redimensionamento, sobreposição de texto | `React 19` `Canvas API` `TypeScript` |
-| 🦉 | [**Oilbird**](https://xangrybadger.github.io/oilbird/) · [src](https://github.com/xAngryBadger/oilbird) | Markdown → PDF com visualização em tempo real e WeasyPrint profissional | `React 19` `FastAPI` `WeasyPrint` |
-| 🦢 | [**Cegonha**](https://xangrybadger.github.io/cegonha/) · [src](https://github.com/xAngryBadger/cegonha) | Gerador de currículo com formulários estruturados e exportação PDF no lado do servidor | `React 19` `FastAPI` `reportlab` |
-| 🤖 | **MaineCoon** | Fork do [MinePal](https://github.com/Anorak001/MinePal) com comandos em linguagem natural via LLM | `Node.js` `mineflayer` `NVIDIA NIM API` |
-| 🫏 | [**Quokka**](https://github.com/xAngryBadger/quokka-trainee-cloud) | API Flask com pipeline CI/CD completo — Docker, Terraform, AWS ECS | `Python` `Flask` `Docker` `Terraform` `AWS` |
-| 🐜 | ~~**Anta**~~ | *Arquivado — mesclado ao Capivara como ferramenta de compressão de PDF* | `React 19` `FastAPI` `pypdf` |
+[**Fennec Excel**](https://github.com/xAngryBadger/Sahara-Fenneck) agente ReAct local para Excel (Ollama) ·
+[**Capivara**](https://xangrybadger.github.io/capivara/) suíte PDF (15 ferramentas) ·
+[**Tarsier**](https://xangrybadger.github.io/tarsier/) workbench JSON client-side ·
+[**Kakapo**](https://xangrybadger.github.io/kakapo/) editor de imagens no browser ·
+[**Oilbird**](https://xangrybadger.github.io/oilbird/) Markdown → PDF ·
+[**Cegonha**](https://xangrybadger.github.io/cegonha/) gerador de currículo ·
+[**Quokka**](https://github.com/xAngryBadger/quokka-trainee-cloud) API Flask + CI/CD (Docker, Terraform, AWS ECS) ·
+[**DiskVisor/SysVisor/ForgeUSB**](https://github.com/xAngryBadger) utilitários desktop em Tauri 2 + Rust
 
-<details>
-<summary><b>🇺🇸 English — Tools & Utilities</b></summary>
-
-| | Project | Description | Stack |
-|---|---|---|---|
-| 🦊 | [**Fennec Excel**](https://github.com/xAngryBadger/Sahara-Fenneck) | Local AI assistant for Excel — ReAct agent (Ollama), 6+ OAuth, Windows installer | `Python` `Ollama` `CustomTkinter` `xlwings/COM` |
-| 🦫 | [**Capivara**](https://xangrybadger.github.io/capivara/) | Full PDF suite — 15 tools (DOCX→PDF, merge, split, OCR, compress, watermark...) | `React 19` `FastAPI` `pypdf` `PyMuPDF` |
-| 👁️ | [**Tarsier**](https://xangrybadger.github.io/tarsier/) | 100% client-side JSON workbench — collapsible tree, transformations, stats | `React 19` `TypeScript` `Vite` |
-| 🦜 | [**Kakapo**](https://xangrybadger.github.io/kakapo/) | Browser image editor — filters, crop, resize, text overlay | `React 19` `Canvas API` `TypeScript` |
-| 🦉 | [**Oilbird**](https://xangrybadger.github.io/oilbird/) | Markdown → PDF converter with live preview and professional WeasyPrint rendering | `React 19` `FastAPI` `WeasyPrint` |
-| 🦢 | [**Cegonha**](https://xangrybadger.github.io/cegonha/) | Resume generator with structured forms and server-side PDF export | `React 19` `FastAPI` `reportlab` |
-| 🤖 | **MaineCoon** | Fork of [MinePal](https://github.com/Anorak001/MinePal) with natural language commands via LLM | `Node.js` `mineflayer` `NVIDIA NIM API` |
-| 🫏 | [**Quokka**](https://github.com/xAngryBadger/quokka-trainee-cloud) | Flask API with full CI/CD pipeline — Docker, Terraform, AWS ECS | `Python` `Flask` `Docker` `Terraform` `AWS` |
-| 🐜 | ~~**Anta**~~ | *Archived — merged into Capivara as the Compress PDF tool* | `React 19` `FastAPI` `pypdf` |
-
-</details>
-
-#### 🏛️ Infraestrutura & Internos / Infrastructure & Internal
-
-| | Projeto | Descrição | Stack |
-|---|---|---|---|
-| 🦡 | **Badger RAG** | Base de conhecimento autoatualizável do código-fonte — MCP server, ChromaDB, watcher Rust | `Python 3.12` `FastMCP` `ChromaDB` `Rust` `NVIDIA NIM` |
-| 🎨 | **Design Catalog** | Catálogo de padrões de design premium — 23 tokens, 23 patterns, 22 snippets | `Markdown` `JSON` `CSS/JS` |
-| 🌲 | **Inovesa** | Site institucional premium — Inovesa Florestal e Ambiental | `React 19` `Vite 6` `Tailwind v4` `Motion` `Lenis` |
-| 💰 | **FinanceTracker** | App de finanças pessoais — Expo/React Native mobile | `React Native` `Expo 54` `TypeScript` |
-| 📄 | **Isaac Vitae** | Portfólio/currículo pessoal — site premium com GSAP e animações | `React 19` `Vite` `GSAP` `Lenis` `Motion` |
-| 👤 | **Nathan** | Site pessoal | `React` `Vite` |
-| 🛡️ | **Security Disclosures** | Portfólio de divulgação responsável — 20+ findings, 5 fixados, CERT.br/CTIR Gov | `OSINT` `Nmap` `LGPD` `NIST CSF` |
-
-<details>
-<summary><b>🇺🇸 English — Infrastructure & Internal</b></summary>
-
-| | Project | Description | Stack |
-|---|---|---|---|
-| 🦡 | **Badger RAG** | Self-updating codebase knowledge base — MCP server, ChromaDB, Rust watcher | `Python 3.12` `FastMCP` `ChromaDB` `Rust` `NVIDIA NIM` |
-| 🎨 | **Design Catalog** | Premium design pattern catalog — 23 tokens, 23 patterns, 22 snippets | `Markdown` `JSON` `CSS/JS` |
-| 🌲 | **Inovesa** | Premium institutional site — Inovesa Florestal e Ambiental | `React 19` `Vite 6` `Tailwind v4` `Motion` `Lenis` |
-| 💰 | **FinanceTracker** | Personal finance app — Expo/React Native mobile | `React Native` `Expo 54` `TypeScript` |
-| 📄 | **Isaac Vitae** | Personal portfolio/resume — premium site with GSAP and animations | `React 19` `Vite` `GSAP` `Lenis` `Motion` |
-| 👤 | **Nathan** | Personal site | `React` `Vite` |
-| 🛡️ | **Security Disclosures** | Responsible disclosure portfolio — 20+ findings, 5 fixed, CERT.br/CTIR Gov | `OSINT` `Nmap` `LGPD` `NIST CSF` |
-
-</details>
-
----
-
-### 🛡️ Security Research & Responsible Disclosure
-
-**20+ vulnerabilidades** em infraestrutura governamental/setorial brasileira — **5 correções confirmadas** via CERT.br/CTIR Gov (Mar–Jun 2026). Três ondas de divulgação: zero retenção, notificação multi-canal (CERT.br + CTIR Gov + direto), verificação pós-fix.
-
-| | Projeto | A tese / The Thesis | Stack |
-|---|---|---|---|
-| 🎯 | **Phishing Takedown: Microsoft/OneDrive** | Derrubei infraestrutura de phishing ativa (procorereviews.com → HTTP 521 sustentado) via flood controlado de 10k submissões. Infra rotacionada (kochcnfvontainer.vu) mapeada, analisada, reportada ao CERT.br/Cloudflare. Extração de HTML real via navegador contornando o anti-bot (Cloudflare Turnstile + fingerprinting). | `OSINT` `Burp Suite` `Shodan` `Google Dorking` `Base91 Decoder` `CERT.br` `Cloudflare` |
-| 🔬 | **JS Deobfuscation & Threat Intel Pipeline** | Reversão de 3 arquivos JS ofuscados com Base91 personalizado (3 alfabetos únicos). Extração de config anti-bot (PageConfig: 32 flags), tokens de sessão, redirect OneDrive legítimo. Pipeline: Navegador → download JS → decodificador Base91 personalizado → extração de IOCs → relatório CERT.br. | `Python` `Base91` `Node.js` `VM Context` `IOC Extraction` `CERT.br` |
-
-<details>
-<summary><b>🇺🇸 English version</b></summary>
-
-**20+ vulnerabilities** in Brazilian government/sector infrastructure — **5 confirmed fixes** via CERT.br/CTIR Gov (Mar–Jun 2026). Three disclosure waves: zero retention, multi-channel notification (CERT.br + CTIR Gov + direct), post-fix verification.
-
-| | Project | The Thesis | Stack |
-|---|---|---|---|
-| 🎯 | **Phishing Takedown: Microsoft/OneDrive** | Took down active phishing infra (procorereviews.com → sustained HTTP 521) via controlled 10k submission flood. Rotated infra (kochcnfvontainer.vu) mapped, analyzed, reported to CERT.br/Cloudflare. Real HTML extraction via browser bypassing anti-bot (Cloudflare Turnstile + fingerprinting). | `OSINT` `Burp Suite` `Shodan` `Google Dorking` `Base91 Decoder` `CERT.br` `Cloudflare` |
-| 🔬 | **JS Deobfuscation & Threat Intel Pipeline** | Reversed 3 JS files obfuscated with custom Base91 (3 unique alphabets). Extracted anti-bot config (PageConfig: 32 flags), session tokens, legitimate OneDrive redirect. Pipeline: Browser → JS download → Custom Base91 decoder → IOC extraction → CERT.br report. | `Python` `Base91` `Node.js` `VM Context` `IOC Extraction` `CERT.br` |
-
-</details>
-
-**Metodologia:** Passive Recon (Google Dorking, Shodan, CT logs, passive DNS) → Exposure Verification (confirm unauthenticated access) → Documentation (screenshots, headers, timestamps) → Secure Deletion (`shred -u`, zero retention) → Multi-channel Notification (CERT.br + CTIR Gov + direct, simultaneous) → Follow-up (post-fix verification, documented closure). Compliance: NIST CSF, LGPD Art. 46/48, OWASP Top 10.
-
----
-
-### Experiência Profissional
-
-> **Security Researcher (Volunteer / Responsible Disclosure)** · `Mar 2026 — Presente` · _Voluntário_
->
-> - 20+ vulnerabilidades em infraestrutura governamental/setorial brasileira — 5 correções confirmadas via CERT.br/CTIR Gov (Mar–Jun 2026). Três ondas de divulgação responsável: zero retenção, notificação multi-canal, verificação pós-fix.
-> - Takedown de phishing Microsoft/OneDrive: derrubei origin server (procorereviews.com) via flood
-> - English: 20+ vulnerabilities in Brazilian government/sectoral infrastructure — 5 confirmed remediations via CERT.br/CTIR Gov (Mar–Jun 2026). Three waves of responsible disclosure: zero retention, multi-channel notification, post-fix verification.
-> - Phishing/Microsoft OneDrive takedown: took down origin server (procorereviews.com) via abuse report
-
-> **Meritage Homes** · Software Engineer (Freelance) · `Nov 2025 — Dez 2025 · 2 meses · Remoto`
->
-> Migrei 500GB de dados críticos para Azure Cosmos DB com zero downtime. Arquitetei pipelines de IA para geração de ativos criativos (GPT-4.1, DALL-E 3, Flux). Desenvolvi infraestrutura de chatbot cross-platform (iOS/Android) com roteamento de intenção context-aware. Engenhei pipelines de parsing de PDF para ingestão por LLM, com tradução/transcrição em espanhol e português. Conduzi sondagens E2E e UAT simulando workflows de corretores.
->
-> English: Migrated 500GB of critical data to Azure Cosmos DB with zero downtime. Architected AI creative pipelines (GPT-4.1, DALL-E 3, Flux). Built cross-platform chatbot infrastructure (iOS/Android) with context-aware intent routing. Engineered PDF parsing pipelines for LLM ingestion with Spanish/Portuguese translation/transcription. Conducted E2E probing and UAT simulating realtors' workflows.
-
-> **Paware Softwares** · Full-Stack Developer · `Out 2025 — Mai 2026`
->
-> Migrei centenas de GB de datasets legados do Google Drive para **Azure Cosmos DB** — pipeline com extração via cookies, compressão, Docker e validação de schema. Resolvi bug crítico de MIME types cross-platform (Android vs iOS). Arquitetei pipeline orquestrado por LLM de geração de imagens para o **HelloSocial** — GPT-4.1, Flux + DALL-E 3.
-
-> **SuperNerds** · Instrutor de Robótica · `Set — Out 2025`
->
-> Aprendi Arduino/LEGO em <2 semanas e ministrei aulas para crianças/adolescentes.
-
-<details>
-<summary><b>🇺🇸 English version</b></summary>
-
-> **Meritage Homes** · Software Engineer (Freelance) · `Nov 2025 — Dec 2025 · 2 months · Remote`
->
-> Migrated 500GB of critical data to Azure Cosmos DB with zero downtime, ensuring high availability and system resilience. Architected AI creative pipelines (GPT-4.1, DALL-E 3, Flux). Built cross-platform chatbot infrastructure (iOS/Android) with context-aware intent routing. Engineered PDF parsing pipelines for LLM ingestion with Spanish/Portuguese translation/transcription. Conducted E2E probing and UAT simulating realtors' workflows.
-
-> **Paware Softwares** · Full-Stack Developer · `Oct 2025 — May 2026`
->
-> Migrated hundreds of GB of legacy datasets from Google Drive to **Azure Cosmos DB** — pipeline with cookie-based extraction, compression, Docker, and schema validation. Resolved critical cross-platform MIME type bug (Android vs iOS). Architected LLM-orchestrated image-generation pipeline for **HelloSocial** — GPT-4.1, Flux + DALL-E 3.
-
-> **SuperNerds** · Robotics Instructor · `Sep — Oct 2025`
->
-> Learned Arduino/LEGO in under 2 weeks and taught robotics to children/teens.
-
-</details>
+> Catálogo completo com case studies: [xangrybadger.github.io/isaac-vitae](https://xangrybadger.github.io/isaac-vitae/)
 
 ---
 
 ### Educação & Certificações
 
-**Cruzeiro do Sul** · Engenharia de Computação · 2024 — 2029 · *em andamento*
+**Cruzeiro do Sul** · Engenharia de Computação · 2024 — 2028 · *em andamento (6º período)*
+**SENAC EAD** · Técnico em Análise de Sistemas · 2024 — 2026
+**UFSJ** · Engenharia Química · 2022 — 2024 · *transição para Computação*
 
-**UFSJ** · Engenharia Química · 2022 — 2024 · *transição*
-
-**UFOP** · Química Industrial · 2022 · *onde Python começou*
-
-**Cisco Networking Academy** — Python Essentials 1 & 2 · Data Science · Data Analytics · Networking (120h) · Cybersecurity
-
-**Gov AI (PBIA)** — IA para Otimização de Processos · 71h · Enap/Serpro
-
-**KUMON** — Inglês fluente · 3 anos
+**Cisco Networking Academy** — Python Essentials 1 & 2 · Data Science Essentials · Data Analytics Essentials · Networking Basics (120h) · Introdução à Cibersegurança
+**Escola Virtual Gov (Enap/Serpro)** — IA para Otimização de Processos e Tomada de Decisão (71h)
+**Google** — Career Readiness / AI Essentials (9 certificados: AI Fundamentals, Technical Support, Content Creation, Writing, Data Analysis, App Building, App Deployment, Brainstorming, Research)
 
 <details>
 <summary><b>🇺🇸 English version</b></summary>
 
-**Cruzeiro do Sul** · Computer Engineering · 2024 — 2029 · *in progress*
+**Cruzeiro do Sul** · Computer Engineering · 2024 — 2028 · *in progress (6th semester)*
+**SENAC EAD** · Systems Analysis Technician · 2024 — 2026
+**UFSJ** · Chemical Engineering · 2022 — 2024 · *pivot to CS*
 
-**UFSJ** · Chemical Engineering · 2022 — 2024 · *pivot*
-
-**UFOP** · Industrial Chemistry · 2022 · *where Python began*
-
-**Cisco Networking Academy** — Python Essentials 1 & 2 · Data Science · Data Analytics · Networking (120h) · Cybersecurity
-
-**Gov AI (PBIA)** — AI for Process Optimization · 71h · Enap/Serpro
-
-**KUMON** — Fluent English · 3 years
+**Cisco Networking Academy** — Python Essentials 1 & 2 · Data Science · Data Analytics · Networking Basics (120h) · Intro to Cybersecurity
+**Gov Virtual School (Enap/Serpro)** — AI for Process Optimization & Decision-Making (71h)
+**Google** — AI Essentials / Career Readiness (9 certificates: AI Fundamentals, Technical Support, Content Creation, Writing, Data Analysis, App Building, App Deployment, Brainstorming, Research)
 
 </details>
 
@@ -294,4 +211,4 @@
 
 ---
 
-Mariana, MG — Brazil · Open to high-impact AI/Cloud/Cybersecurity/Security collaborations
+Mariana, MG — Brazil · Open to AI / Cloud / Full-Stack engineering roles
