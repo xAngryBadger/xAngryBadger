@@ -5,10 +5,10 @@
 # Isaac Nathan
 **Engenheiro de Software · IA Aplicada · Cloud (Azure) · Full-Stack**
 
-[![Portfolio](https://img.shields.io/badge/Portf%C3%B3lio-isaac vitae-456A4B?style=flat-square)](https://xangrybadger.github.io/isaac-vitae/)
+[![Portfolio](https://img.shields.io/badge/Portf%C3%B3lio-isaac%20vitae-456A4B?style=flat-square)](https://xangrybadger.github.io/isaac-vitae/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Isaac%20Nathan-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/isaac-nathan-da-silva-barbosa-815b212ab/)
 [![Email](https://img.shields.io/badge/Email-isaacnathandasilva-D4A017?style=flat-square&logo=gmail)](mailto:isaacnathandasilva@gmail.com)
-[![Localiza%C3%A7%C3%A3o](https://img.shields.io/badge/Mariana-MG-5D5A55?style=flat-square)](#)
+[![Localização](https://img.shields.io/badge/Mariana-MG-5D5A55?style=flat-square)](#)
 
 </td>
 <td width="30%" align="right" valign="top">
